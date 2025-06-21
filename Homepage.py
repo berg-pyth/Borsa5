@@ -1,4 +1,9 @@
 #Homepage
+# Fix NumPy 2.0+ compatibility
+import numpy as np
+if not hasattr(np, 'NaN'):
+    np.NaN = np.nan
+
 import streamlit as st
 
 st.set_page_config(
