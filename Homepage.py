@@ -8,8 +8,19 @@ import streamlit as st
 
 st.set_page_config(
     page_title="BorsaNew_app - Home",
-    layout="wide"
+    layout="wide",
+    page_icon="📈"
 )
+
+# PWA Meta tags
+st.markdown("""
+<link rel="manifest" href="/static/manifest.json">
+<meta name="theme-color" content="#ff6b6b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="BorsaNew">
+<link rel="apple-touch-icon" href="/static/icon-192.png">
+""", unsafe_allow_html=True)
 
 st.title("Benvenuto nella BorsaNew_app")
 st.write("Questa piattaforma ti permette di scaricare i dati e vedere indicatori.")
