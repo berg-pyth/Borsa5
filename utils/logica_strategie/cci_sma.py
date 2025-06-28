@@ -1,8 +1,9 @@
 # BorsaNew_app/utils/logica_strategie/cci_sma.py
 
+from ..numpy_compat import *
 import pandas as pd
-import pandas_ta as ta
 import numpy as np
+import pandas_ta as ta
 
 class CciSmaStrategy:
     """

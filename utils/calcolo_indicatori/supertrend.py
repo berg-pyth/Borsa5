@@ -1,6 +1,8 @@
 # Borsa2_app/utils/calcolo_indicatori/supertrend.py
 
+from ..numpy_compat import *
 import pandas as pd
+import numpy as np
 import pandas_ta as ta
 
 def calculate_supertrend(high, low, close, period=10, multiplier=3.0):
