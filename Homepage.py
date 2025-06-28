@@ -30,9 +30,9 @@ st.error("⚠️ DISCLAIMER IMPORTANTE")
 st.markdown("""
 **Questo programma è puramente un esempio dimostrativo e non è stato testato per uso reale.**
 
-❌ **NON utilizzare per strategie di trading reali**  
-❌ **NON investire denaro basandosi su questi risultati**  
-❌ **NON considerare come consulenza finanziaria**
+- **NON utilizzare per strategie di trading reali**  
+- **NON investire denaro basandosi su questi risultati**  
+- **NON considerare come consulenza finanziaria**
 
 L'autore non si assume alcuna responsabilità per eventuali perdite finanziarie.
 """)
